@@ -3,7 +3,7 @@ import * as util from 'util';
 import { exec } from 'child_process';
 const execAsync = util.promisify(exec);
 
-// Extract public keys from pem certicates
+// Extract public keys from pem certificates
 const numCertificates = fs.readdirSync('outputs/certificates/').length;
 const concurrencyLimit = 500; // Number of tasks to run at once
 
@@ -159,7 +159,7 @@ function hexToDecimal(hexString: string): string {
 
 main();
 
-// Signature Algorithm and an example of occurence:
+// Signature Algorithm and an example of occurrence:
 // sha256WithRSAEncryption 0
 // rsassaPss 317
 // sha1WithRSAEncryption 493
