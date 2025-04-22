@@ -12,7 +12,7 @@ import { LeanIMT } from '@openpassport/zk-kit-lean-imt';
 let tbs_max_bytes = 0;
 let key_length_max_bytes = 0;
 const countryKeyBitLengths: { [countryCode: string]: number } = {};
-let cscaDescriptions: { [cscaDesciption: string]: number } = {};
+let cscaDescriptions: { [cscaDescription: string]: number } = {};
 let dscDescriptions: { [dscDescription: string]: number } = {};
 let undefinedFilePathsCsca: string[] = [];
 let undefinedFilePathsDsc: string[] = [];
